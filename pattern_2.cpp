@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+/*
 int main() {
     int n;
     cin >> n;
@@ -16,5 +16,23 @@ int main() {
         }
         cout << endl;
         i = i + 1;
+    }
+}
+*/
+
+void nNumberTriangle(int n) {
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n - i + 1; j++) {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+}
+
+void pattern18(int n) {
+    for (int i = 0; i <= n; i++) {
+        for (char ch = 'E' - i; ch <= 'E'; ch++)
+            cout << ch << "  ";
+        cout << endl;
     }
 }
