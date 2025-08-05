@@ -36,3 +36,9 @@ void pattern18(int n) {
         cout << endl;
     }
 }
+
+int main() {
+    nNumberTriangle(10);
+
+    return 0;
+}
