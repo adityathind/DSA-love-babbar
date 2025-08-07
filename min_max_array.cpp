@@ -36,7 +36,7 @@ int main() {
     cin >> size;
 
     // take input in the array
-    cout << "give values to put in array" << endl;
+    cout << "input the values to put in array" << endl;
     int num[100];
     for (int i = 0; i < size; i++)
         cin >> num[i];
