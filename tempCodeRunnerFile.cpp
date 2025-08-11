@@ -1,0 +1,1 @@
+int firstOccurence(int arr[], int size, int key) {

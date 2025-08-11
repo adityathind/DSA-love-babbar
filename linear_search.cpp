@@ -15,6 +15,7 @@ int main() {
     cout << "Enter the element to search for" << endl;
     int key;
     cin >> key;
+
     bool found = search(arr, 10, key);
     if (found) {
         cout << "key is present" << endl;
