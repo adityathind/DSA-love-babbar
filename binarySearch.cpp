@@ -1,3 +1,4 @@
+// to find index of a number
 #include <iostream>
 using namespace std;
 
@@ -26,6 +27,6 @@ int main() {
     int odd[5] = {1, 3, 5, 6, 8};
 
     int index = binarySearch(even, 6, 13);
-    cout << "index of 12 is " << index << endl;
+    cout << "index of 13 is " << index << endl;
     return 0;
 }
